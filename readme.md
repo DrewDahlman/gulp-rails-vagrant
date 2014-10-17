@@ -23,8 +23,8 @@ To get started place the Vagrantfile in the root of your application.
         end
     end
 </pre>
-
 This will run `gulp` each time your application starts, it will run silently in the background. You will still see errors popup if something goes wrong.
+6. Adjust the `config/puppet/manifests/database.yml/erb` and supply the same credentials you did for your dev user in the `vagrant.pp` file
 
 ## Notes:
 You can still run the boilerplate like a normal gulp project by `cd frontend/` and running `gulp`
