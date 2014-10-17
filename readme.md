@@ -3,6 +3,7 @@ This is a boilerplate vagrant + puppet setup to use Gulp & Rails.
 
 ## Things you Need
 1. Vagrant - https://www.vagrantup.com/
+2. VirtualBox - https://www.virtualbox.org/
 
 ## Setup
 To get started place the Vagrantfile in the root of your application.
